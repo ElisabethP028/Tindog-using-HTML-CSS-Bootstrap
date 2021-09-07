@@ -1,0 +1,188 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  line-height: 1.5
+}
+
+
+.testi-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  }
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+/* the @media tells the page to react to whether it is pc, tablet or mobile and will do the below */
+@media (max-width: 1028px) {
+  .title {
+  text-align: center;
+  }
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.title-image {
+  position: absolute;
+  right: 25%;
+  width: 24%;
+  transform: rotate(25deg);
+  /*** this tilts or rotates images to whichever degree we want ***/
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  padding: 7% 15% 7% 15%;
+  position: relative;
+}
+
+.center {
+  width: 100%;
+}
+
+/* .feature-box {
+
+}
+*/
+
+i:hover {
+  color: #ff4c68;
+  }
+
+/* Testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20;
+  width: 10%;
+}
+
+/* Press section  */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align:center;
+}
+
+.press-logo {
+  margin: 20px 20px 50px 20px;
+  width: 15%;
+}
+
+.section-card {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px 100px 100px 100px;
+}
+
+/* button:hover {
+  color: #ff4c68;
+} */
+
+.pricing-button {
+  width: 100%;
+}
+
+.pricing-button-solid {
+  width: 100%;
+}
+
+.pricing-column {
+  padding: 3% 2% 3% 2%;
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 6% 6%;
+}
+
+.cta-button {
+  margin: 3% 2%;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  padding: 2% 2%;
+}
+
+.footer-icon {
+  margin: 0 5px 4px 5px;
+}
